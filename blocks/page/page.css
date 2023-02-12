@@ -1,0 +1,10 @@
+.page {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #2A2C2F;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+}
+span {
+    font-weight: 400;
+}

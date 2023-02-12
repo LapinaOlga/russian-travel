@@ -8,13 +8,15 @@
     text-decoration: none;
     transition: opacity 200ms ease-in-out;
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .header__lang-link {
         max-width: 22px;
         font-size: 18px;
-        line-height: 20px;
+        line-height: 1;
     }
 }
+
 .header__lang-link:hover {
     opacity: 0.3;
 }

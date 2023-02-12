@@ -11,4 +11,4 @@
 
 **GitHub**
 
-* [ссылка проекта на GitHub]()
+* [ссылка проекта на GitHub](https://lapinaolga.github.io/russian-travel/)

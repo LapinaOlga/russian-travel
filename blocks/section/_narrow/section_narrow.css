@@ -10,6 +10,7 @@
         padding-right: 48px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .section__narrow {
         padding-left: 24px;

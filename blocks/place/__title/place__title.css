@@ -8,27 +8,31 @@
     color: #FFFFFF;
     grid-area: title;
     align-items: start;
+    white-space: pre-wrap;
 }
 
 @media screen and (max-width: 1024px) {
-    .place__title  {
+    .place__title {
         max-width: 440px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__title  {
+    .place__title {
         max-width: 340px;
         font-size: 42px;
         line-height: 46px;
 
     }
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .place__title  {
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__title {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        padding-left: 16px;
-        padding-right: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        white-space: normal;
     }
 }
